@@ -1,0 +1,8 @@
+{
+  "User": "Tom Brady",
+  "monitoring": true,
+  "heartRate":135,
+  "averageHeartRate(last 5 minutes)": 126,
+  "status": "Normal",
+  "lastChecked": 60
+}
