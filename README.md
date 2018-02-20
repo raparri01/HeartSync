@@ -2,4 +2,5 @@
 Capstone Project
 
 ## Using AWS Scripts
-* node s3upload.js FILENAME
+* node s3upload.js FILENAME 
+* node readFromS3.js
