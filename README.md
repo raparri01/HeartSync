@@ -2,4 +2,4 @@
 Capstone Project
 
 ## Using AWS Scripts
-* node s3upload.js BUCKETNAME FILENAME
+* node s3upload.js FILENAME
