@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald|Roboto");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff9fb;
+  height: 100%; }
+
+html {
+  height: 100%; }
+
+p {
+  padding: 0;
+  margin: 0; }
+
+h3 {
+  padding: 0;
+  margin: 0; }
+
+.headerBar {
+  font-size: 40px;
+  font-family: Oswald;
+  background-color: #FF8E8E;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  color: white; }
+
+.app-main-body {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  height: 100%; }
+
+.userCard {
+  background-color: white;
+  padding: 10px; }
+
+.profileHead {
+  width: 100%;
+  align-items: center; }
+  .profileHead h1 {
+    width: 100%;
+    text-align: center; }
+
+.picture {
+  padding: 15px;
+  float: left;
+  display: flex;
+  width: 300px;
+  border: 1px solid lightgrey;
+  border-radius: 2px; }
+
+.profilePic {
+  width: 300px; }
+
+.bandStats {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px; }
+
+.monitoring p {
+  color: #42f46e; }
+
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.btn {
+  width: 500px; }
+
+/*# sourceMappingURL=App.css.map */
