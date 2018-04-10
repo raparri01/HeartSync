@@ -15,7 +15,7 @@ class App extends Component {
           <div className = "userCard">
           <div className = "userStats">
           <div className = "profileHead">
-            <h1>{UserData.User}</h1>
+            <h1>{UserData}</h1>
           </div>
           <div className="userData">
             <div className="picture">
@@ -25,22 +25,22 @@ class App extends Component {
             <div className = "bandStats">
               <div className ="heartRate">
                 <h3>Current Heartbeat</h3>
-                <p>{UserData.heartRate} BPM</p>
+                <p>{UserData} BPM</p>
               </div>
               <br></br>
               <div className ="heartRateLast5">
                   <h3>Average Heart Rate</h3>
-                  <p>{UserData.averageHeartRate5}</p>
+                  <p>{UserData}</p>
               </div>
               <br></br>
               <div className ="monitoring">
                   <h3>Monitoring</h3>
-                  <p>{UserData.monitoring.toString()}</p>
+                  <p>{UserData}</p>
               </div>
               <br></br>
               <div className ="status">
                 <h3>Status</h3>
-                <p>{UserData.status}</p>
+                <p>{UserData}</p>
               </div>
               <br></br>
               <div className ="lastChecked">

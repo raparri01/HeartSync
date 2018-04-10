@@ -10,7 +10,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp ./src/config.js ./src/config.bak.js && cp ./src/config-prod.js ./src/config.js && mv ./src/config.bak.js ./src/config.js",
+    "deploy": "aws s3 cp --recursive ./build s3://heartsync-s3-bucket",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
